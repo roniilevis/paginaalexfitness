@@ -1,0 +1,51 @@
+header{
+    display: block;
+    border: 1px solid;
+    height: 538px;
+    width: auto;
+    margin: 1% ;
+}
+
+
+#redes-icono{
+    position: absolute;
+    top: 50px;
+    right: 11%;
+    width: 5%;
+    border: 1px solid;
+    height: 4%;
+}
+
+
+.navegacion-home{
+    margin: 1% 9%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid;
+}
+
+.navegacion-home a{
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.navegacion-home li{
+    list-style: none;
+
+}
+
+
+#presentacion-home{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin: 1% 9%;
+    align-items: center;
+    
+}
+
+#presentacion-home h1{
+    font-size: 30px;
+}
