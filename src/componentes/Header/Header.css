@@ -4,38 +4,52 @@ header{
     height: 538px;
     width: auto;
     margin: 1% ;
+    position: relative;
 }
 
 
 #redes-icono{
+    display: flex;
     position: absolute;
-    top: 50px;
+    justify-content: space-between;
+    top: 25px;
     right: 11%;
     width: 5%;
-    border: 1px solid;
-    height: 4%;
+    height: 7%;
 }
 
 
 .navegacion-home{
     margin: 1% 9%;
-    padding-top: 4%;
-    padding-bottom: 2%;
     display: flex;
-    justify-content: space-evenly;
     border: 1px solid;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 7px;
 }
 
-/*hola*/
+.navegacion-home ol{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+
+.navegacion-home li{
+    list-style: none;
+}
+
 
 .navegacion-home a{
     text-decoration: none;
     font-size: 35px;
 }
 
-.navegacion-home li{
-    list-style: none;
 
+
+.navegacion-home img{
+    width: fit-content;
 }
 
 

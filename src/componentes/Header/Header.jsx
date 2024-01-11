@@ -1,19 +1,24 @@
 import './Header.css'
-
+import logomarca from '../imagenes/logomarca.png'
+import whatsapp from '../imagenes/whatsapp.png'
+import facebook from '../imagenes/facebook.png'
 
 const Header = () => {
     return <>
     <header>
         <div id='redes-icono'>
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <a href=""><img src={whatsapp} alt="logowhatsapp" /></a>
+            <a href=""> <img src={facebook} alt="logofacebook" /></a>
+           
         </div>
         <nav className='navegacion-home'>
+            <ol>
                     <li><a href="#">Quien Soy</a></li>
                     <li><a href="#">Planes</a></li>
-                    <li><a href="#"><img src="" alt="" /></a></li>
+                    <li><img src= {logomarca} alt='logoalexfitness' /></li>
                     <li><a href="#">Mercancia</a></li>
                     <li><a href="#">Ubicacion</a></li>
+           </ol>
         </nav>
         <div id='presentacion-home'>
                 <h1>Que estarias dispuesto a sacrificar para lograr tus objetivos?</h1>
