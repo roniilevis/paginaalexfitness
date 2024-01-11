@@ -8,7 +8,7 @@ const Header = () => {
     <header>
         <div id='redes-icono'>
             <a href=""><img src={whatsapp} alt="logowhatsapp" /></a>
-            <a href=""> <img src={facebook} alt="logofacebook" /></a>
+            <a href="https://www.facebook.com/railinalexander.polanco"> <img src={facebook} alt="logofacebook" /></a>
            
         </div>
         <nav className='navegacion-home'>
