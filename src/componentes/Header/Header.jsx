@@ -7,7 +7,7 @@ const Header = () => {
     return <>
     <header>
         <div id='redes-icono'>
-            <a href=""><img src={whatsapp} alt="logowhatsapp" /></a>
+            <a href="https://wa.me/c/18099621689"><img src={whatsapp} alt="logowhatsapp" /></a>
             <a href="https://www.facebook.com/railinalexander.polanco"> <img src={facebook} alt="logofacebook" /></a>
            
         </div>
