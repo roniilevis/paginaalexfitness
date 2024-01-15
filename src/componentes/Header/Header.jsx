@@ -2,6 +2,7 @@ import './Header.css'
 import logomarca from '../imagenes/logomarca.png'
 import whatsapp from '../imagenes/whatsapp.png'
 import facebook from '../imagenes/facebook.png'
+import PersonasEjercisio from '../imagenes/PersonasEjercisio.png'
 
 const Header = () => {
     return <>
@@ -9,7 +10,6 @@ const Header = () => {
         <div id='redes-icono'>
             <a href="https://wa.me/c/18099621689"><img src={whatsapp} alt="logowhatsapp" /></a>
             <a href="https://www.facebook.com/railinalexander.polanco"> <img src={facebook} alt="logofacebook" /></a>
-           
         </div>
         <nav className='navegacion-home'>
             <ol>
@@ -20,9 +20,9 @@ const Header = () => {
                     <li><a href="#">Ubicacion</a></li>
            </ol>
         </nav>
-        <div id='presentacion-home'>
+        <div className='presentacion-home'>
                 <h1>Que estarias dispuesto a sacrificar para lograr tus objetivos?</h1>
-                <img src="" alt="" />
+                <img id='presentacion-home-img' src={PersonasEjercisio} alt="PersonasEjercitandose" width="500px" />
         </div>
     </header>
     
