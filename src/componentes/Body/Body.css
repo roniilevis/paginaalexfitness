@@ -3,5 +3,15 @@ body{
     display: block;
     padding-top: 9px;
     background-image: url(../imagenes/fondobody.jpg);
-    
+}
+
+
+:root{
+    --color-letra-titulo:rgb(20, 0, 0);
+
+    --tamano-letra-titulo: 1.5rem;
+
+    --tamano-letra-parrafo: 1.2rem;
+
+    --color-letra-parrafo: rgb(20, 0, 0);
 }
