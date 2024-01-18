@@ -1,4 +1,7 @@
 import './Main.css'
+import Rutinasretadoras from '../imagenes/Rutinasretadoras.png'
+import Programaspersonalizados from '../imagenes/Programaspersonalizados.png'
+import Alimentacion from '../imagenes/Alimentacion.png'
 
 
 const Main = ()=> {
@@ -11,17 +14,21 @@ const Main = ()=> {
         </div>
         
         <div className='servicios'>
-            <div>
-                <img src="" alt="" />
-                <p>Sesiones de entrenamientos retadoras</p>
+            <div id='servicios-card'>
+                <img src={Rutinasretadoras} alt="Rutina.png" />
+                <div>
+                <h3 id='servicios-parrafo'>Sesiones de entrenamientos retadoras</h3>
+                <p id='servicios-parrafo-rutinasretadoras' >"Sumérgete en sesiones de entrenamiento que desafiarán tus límites y te impulsarán hacia un nuevo nivel de excelencia. <br />Cada repetición, cada gota de sudor, te acercará un paso más a la versión más fuerte y resistente de ti mismo. <br />Enfrenta el desafío con determinación, porque en la dificultad es donde descubrimos nuestra verdadera fortaleza. Estas sesiones no son solo físicas, son una oportunidad para transformarte, superar obstáculos y alcanzar metas que nunca imaginaste posibles. ¡Prepárate para desafiar tus límites y descubrir el increíble potencial que reside en ti!"</p>
+                </div>
+                
             </div>
-            <div>
-                <img src="" alt="" />
-                <p>Programas Personalizados</p>
+            <div id='servicios-card'>
+                <h3 id='servicios-parrafo'>Programas Personalizados</h3>
+                <img src={Programaspersonalizados} alt="Personasentrenando.png" />
             </div>
-            <div>
-                <img src="" alt="" />
-                <p>Alimenta tu exito</p>
+            <div id='servicios-card'>
+                <img src={Alimentacion} alt="alimentos.png" />
+                <h3 id='servicios-parrafo'>Alimenta tu exito</h3>
             </div>
             
         </div>
