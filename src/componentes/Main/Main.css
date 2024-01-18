@@ -10,8 +10,9 @@
     background: white;
     position: relative;
     margin-top: 24px;
-    border-radius: 40px;
+    border-radius: 20px;
     text-align: center;
+    width: 70%;
     height: auto;
 }
 
@@ -42,7 +43,7 @@
     flex-direction: column;
     align-items: center;
     width: 70%;
-    border-radius: 40deg;
+    border-radius: 35px;
     gap: 30px;
     
 }
@@ -93,6 +94,7 @@
 
 #servicios-parrafo, #servicios-parrafo-centro{
     font-size: 1.2em;
+    font-style: italic;
 }
 
 
