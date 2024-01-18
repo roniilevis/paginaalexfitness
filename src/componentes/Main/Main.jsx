@@ -15,7 +15,7 @@ const Main = ()=> {
         
         <div className='servicios'>
             <div id='servicios-card'>
-                <img src={Rutinasretadoras} alt="Rutina.png" />
+                <img  className='servicios-img' src={Rutinasretadoras} alt="Rutina.png" />
                 <div id='servicios-titulo-texto'>
                 <h3 id='servicios-titulo'>Sesiones de entrenamientos retadoras</h3>
                 <p id='servicios-parrafo' >Sumérgete en sesiones de entrenamiento que desafiarán tus límites y te impulsarán hacia un nuevo nivel de excelencia. 
@@ -23,7 +23,7 @@ const Main = ()=> {
                 </div>
             </div>
             <div id='servicios-card-centro'>
-                <img src={Programaspersonalizados} alt="Personasentrenando.png" />
+                <img className='servicios-img-centro' src={Programaspersonalizados} alt="Personasentrenando.png" />
                 <div id='servicios-titulo-texto-centro'>
                 <h3 id='servicios-titulo-centro'>Entrenamientos personalizados</h3>
                 <p id='servicios-parrafo-centro' >"Tu cuerpo, tu transformación, brindamos Entrenamientos personalizados con resultados garantizados y de acorde a tus prioridades
@@ -31,7 +31,7 @@ const Main = ()=> {
                 </div>
             </div>
             <div id='servicios-card'>
-                <img src={Alimentacion} alt="alimentos.png" />
+                <img  className='servicios-img' src={Alimentacion} alt="alimentos.png" />
                 <div id='servicios-titulo-texto'>
                 <h3 id='servicios-titulo'>Alimenta tu exito</h3>
                 <p id='servicios-parrafo' >Aliméntate para brillar, Tu viaje hacia la mejor versión de ti comienza con nuestra Dieta Fitness, diseñada para transformar tu cuerpo y energizar tu vida. ¡Vive bien, come bien, sé bien</p>
