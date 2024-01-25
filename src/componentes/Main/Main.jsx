@@ -2,6 +2,7 @@ import './Main.css'
 import Rutinasretadoras from '../imagenes/Rutinasretadoras.png'
 import Programaspersonalizados from '../imagenes/Programaspersonalizados.png'
 import Alimentacion from '../imagenes/Alimentacion.png'
+import logomarca from '../imagenes/logomarca.png'
 
 
 const Main = ()=> {
@@ -37,7 +38,52 @@ const Main = ()=> {
                 <p id='servicios-parrafo' >Aliméntate para brillar, Tu viaje hacia la mejor versión de ti comienza con nuestra Dieta Fitness, diseñada para transformar tu cuerpo y energizar tu vida. ¡Vive bien, come bien, sé bien</p>
                 </div>
             </div>
-            
+        </div>
+    
+        
+        <div className='planes'>
+            <h2>PLANES</h2>
+            <div className='planes-detalle-list'>
+
+            <div className='plan-detalle-content'>
+                <h3>PLAN 1</h3>
+                <img className='imagen-logo' src={logomarca} alt="" />
+                <ul>
+                    <li>Entrenamiento 5 dias a la semana</li>
+                    <li>Evaluacion de medidas antropomorficas</li>
+                    <li>Guia de entrenamiento dirigido a los objetivos deseados</li>
+                    <li>Guia de suplementacion y dieta ajustada a tus objetivos</li>
+                    <li>Seguimiento personalizado via whatsapp</li>
+                </ul>
+            </div>
+            <div className='plan-detalle-content'>
+            <h3>PLAN 2</h3>
+            <img className='imagen-logo' src={logomarca} alt="" />
+                <ul>
+                    <li>Entrenamiento 4 dias a la semana</li>
+                    <li>Evaluacion de medidas antropomorficas</li>
+                    <li>Guia de entrenamiento dirigido a los objetivos deseados</li>
+                    <li>Guia de suplementacion y dieta ajustada a tus objetivos</li>
+                    <li>Seguimiento personalizado via whatsapp</li>
+                </ul>
+
+            </div>
+            <div className='plan-detalle-content'>
+            <h3>PLAN 3</h3>
+            <img className='imagen-logo' src={logomarca} alt="" />
+            <ul>
+                    <li>Entrenamiento 3 dias a la semana</li>
+                    <li>Evaluacion de medidas antropomorficas</li>
+                    <li>Guia de entrenamiento dirigido a los objetivos deseados</li>
+                    <li>Guia de suplementacion y dieta ajustada a tus objetivos</li>
+                    <li>Seguimiento personalizado via whatsapp</li>
+            </ul>
+
+            </div>
+
+                
+            </div>
+           
         </div>
     </main>
     
